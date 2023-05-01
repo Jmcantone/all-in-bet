@@ -1,0 +1,60 @@
+{
+  "rooms": {
+    "roomId1": {
+      "GameInProgress": true,
+      "code": "ABCD1234",
+      "host": "hostId1",
+      "name": "Sala 1",
+      "players": {
+        "playerId1": {
+          "bet": 0,
+          "chips": 1000,
+          "name": "Jugador 1",
+          "status": "active"
+        },
+        "playerId2": {
+          "bet": 0,
+          "chips": 1000,
+          "name": "Jugador 2",
+          "status": "active"
+        }
+      },
+      "settings": {
+        "blindIncreaseCondition": "time",
+        "blindTimer": 15,
+        "maxRebuys": 3,
+        "playersOutToIncrease": 2,
+        "rebuyChips": 1000,
+        "rebuyCost": 100
+      }
+    },
+    "roomId2": {
+      "GameInProgress": true,
+      "code": "EFGH5678",
+      "host": "hostId2",
+      "name": "Sala 2",
+      "players": {
+        "playerId3": {
+          "bet": 0,
+          "chips": 2000,
+          "name": "Jugador 3",
+          "status": "active"
+        },
+        "playerId4": {
+          "bet": 0,
+          "chips": 2000,
+          "name": "Jugador 4",
+          "status": "active"
+        }
+      },
+      "settings": {
+        "blindIncreaseCondition": "playersOut",
+        "blindTimer": 30,
+        "maxRebuys": 5,
+        "playersOutToIncrease": 3,
+        "rebuyChips": 2000,
+        "rebuyCost": 200
+      }
+    }
+  }
+}
